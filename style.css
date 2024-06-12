@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+ 
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(0deg, rgba(10, 10, 10, 0.922) 5%, rgba(122, 123, 119, 0.5) 49%, rgba(10, 10, 10, 0.922) 94%),url(./IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-position: center;
+    background-size: cover;  
+    border-bottom: 10px solid rgb(45, 44, 44); 
+}
+.header{
+
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 100px;
+    padding-block: 4%;
+    
+  
+}
+
+.logo{ 
+
+    width: 20%; 
+   
+} 
+
+.header span {
+    width: 20%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span button{
+    /* width: 100px; */
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+}
+
+#btn{
+    width: 160px;
+    background-color: rgba(0, 0, 0, 0.774);
+    border: 1px solid rgb(134, 127, 127);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn_1{
+    width: 90px;
+    height:10px ;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.heading{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-block: 140px;
+}
+.heading h1{
+
+    font-size: 65px;
+    text-align: center;
+}
+.heading h6{
+  
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 30px;
+}
+.heading p{
+
+    font-size: 25px;  
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.heading input{
+    width: 500px;
+    height: 70px;
+    background: transparent;
+    border: 1px solid rgb(96, 96, 95) ;
+    padding-left: 30px;
+    border-radius: 5px;
+    
+ 
+    }
+
+    .heading input::placeholder{
+        color: rgb(169, 168, 168);
+        font-size: 20px;
+    }
+
+    .heading button{
+        width: 300px;
+        height: 68px;
+        background-color: red(0, 255, 76);
+        color: white; 
+        border: none;
+        border-radius: 3px;
+        margin-left: 5px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    /* tv section css */
+
+    .tv-section{
+        width: 100%;
+        height: 100vh;
+
+        background-color: black;
+        display: flex;
+        border-bottom: 10px solid rgb(46, 44, 44);
+        padding-block: 40px;
+        font-family: sans-serif;
+        padding-inline: 6%;
+
+    }
+
+    .left-child{
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .right-child{
+        width: 50%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+
+    .text{
+        padding-bottom: 20%;
+    }
+
+    .text h4{
+        font-size: 80px;
+    }
+    .text p{
+        font-size: 30px;
+        padding-top: 40px;
+        font-weight: lighter;
+    }
+    .right-child img{
+        width: 70%;
+    }
+
+  .faq-section{
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+    padding-block: 80px;
+    border-bottom: 10px solid rgb(59, 59, 59);
+  }
+  .faq-section h1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+.faq-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 40px;
+}
+.faq-box{
+    width: 70%;
+    height: 60px;
+    background-color: rgb(52, 51, 51);
+    margin-top: 20px;
+
+}
+
+.faq-box span{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.faq-box:hover{
+    background-color: rgb(106, 99, 99);
+}
+
+
+ /* similar pattern of heading start*/
+
+ .heading_2{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-block: 20px;
+    font-family: sans-serif;
+   }
+.heading_2 p{
+
+    font-size: 25px;  
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: lighter;
+
+}
+.heading_2 input{
+    width: 350px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid rgb(137, 137, 130) ;
+    padding-left: 30px;
+    text-align: center;
+ 
+    }
+
+    .heading_2 input::placeholder{
+        color: white;
+      
+    }
+
+    #mail_add{
+        width:400px ;
+        height:60px ;
+        border-radius: 5px;
+        text-align: start;
+        font-size: 20px;
+        color: rgb(88, 87, 87);
+    }
+    .btn_3{
+        width: 200px;
+        height: 58px;
+        background-color: red;
+        color: white; 
+        border: none;
+        border-radius: 3px; 
+        font-size: 20px;   
+
+    }
+    
+
+      /*  similar pattern of heading END*/
+
+.footer-section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    padding-block: 70px;
+}
+
+.footer-section p{
+    color: gray;
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.footer-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-block: 20px;
+
+}
+
+.footer-part ul li a{
+    color: gray;
+    line-height: 30px;
+}
+
+#Footer_btn{
+    background-color: rgba(0, 0, 0, 0.774);
+    border: 1px solid white;
+    margin-left: 150px;
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    border: none;
+    color: white
+
+}
+
+
+
+
+    @media (max-width : 768px) {
+        .container{
+            width: 100%;
+            height: auto;
+        }
+
+        .header{
+            width: 100%;
+            height: 70px;
+
+        }
+
+        .header span{
+            width: 60%;
+        }
+        .logo{
+            width: 30%;
+        }
+
+        .heading{
+            width: 100%;
+            height: auto;
+        }
+
+        .heading h1{
+            font-size: 38px;
+        }
+        .heading h6{
+            font-size: 18px;
+        }
+        .heading p{
+            font-size: 14px;
+        }
+
+        .heading span{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .heading span input{
+            width: 250px;
+        }
+        .heading span button{
+            margin-top: 20px;
+        }
+
+        .tv-section{
+            width: 100%;
+            height: auto;
+            flex-direction: column;
+            padding-inline: 30px;
+        }
+
+
+        .left-child{
+            width: 100%;
+            height: auto;
+
+        }
+
+        .right-child{
+            width: 100%;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .text h4{
+            font-size: 28px;
+        }
+        .text p{
+            font-size: 16px;
+        }
+        .text{
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+      
+        .text p br{
+            display: none;
+        }
+        .faq-section h1{
+            font-size: 30px;
+        }
+
+        .footer-section{
+            width: 100%;
+            height: auto;
+
+        }
+        .footer-section p{
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        .footer-part{
+            width: 100%;
+            height: auto;
+            /* flex-wrap: wrap; */
+            align-items: start;
+            justify-content: start;
+            flex-direction: column;
+            padding-inline: 20px;
+        }
+
+        .footer-section ul{
+            margin-top: 30px;
+        }
+    }
